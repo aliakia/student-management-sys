@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ffffff;
+    text-transform: capitalize;
+    overflow-x: hidden;
+    font-family: "VT323", monospace;
+    background: #5C946E;
+    color:#fff;
+}
+
+nav {
+    margin: 10px;
+}
+
+li, a {
+    list-style: none;
+    color: #fff;
+}
+
+
+button {
+    text-transform: capitalize;
+    width: 100px;
+    border-radius: 0;
+    font-family: "VT323", monospace;
+    color: #fff;
+}
+
+input {
+    border-radius: 0;
+    margin: 5px 0;
+    font-family: "VT323", monospace;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+table {
+    border: 2px solid #1f1f1f;
+    padding: 10px;
+}
+
+th {
+    border-bottom: 1px solid #1f1f1f;
+    background-color: #EFD09E;
+    color: #1f1f1f;
+    font-weight: 400;
+}
+
+form {
+    margin: 10px 0;
+}
+
+.delete {
+    background-color: #A16869;
+}
+
+.edit {
+    background-color: #443850;
+}
+
+.save {
+    background-color: #427AA1;
+}
+
